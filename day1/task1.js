@@ -8,9 +8,9 @@ for(let i=0; i<students.length; i++){
 //Task 2:
 for(let i=0; i<students.length; i++){
     if(students[i].grade >=10)
-        console.log("passed");
+        console.log(students[i].name+" "+"passed");
     else
-        console.log("failed");
+        console.log(students[i].name+" "+"failed");
 }
 
 //Task 3:
@@ -40,6 +40,8 @@ function isAdult(age){
     else
         return false;
 }
+console.log(isAdult(20));
+
 //Task 6:
 let sara =students.find(student => student.name === "Sara");
 let passed = students.filter(student => student.grade >= 10);
