@@ -44,7 +44,9 @@ console.log(isAdult(20));
 
 //Task 6:
 let sara =students.find(student => student.name === "Sara");
+console.log(sara);
 let passed = students.filter(student => student.grade >= 10);
+console.log(passed);
 
 //Bonus:
 students.push({name:'Omar', age:23, grade:12});
